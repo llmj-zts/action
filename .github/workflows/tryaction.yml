@@ -11,7 +11,7 @@ jobs:
               run: |
                 python script.py
     build:
-        runs-on: window-latest
+        runs-on: windows-latest
         steps:
             - name: 我想运行一个命令
               run: |
