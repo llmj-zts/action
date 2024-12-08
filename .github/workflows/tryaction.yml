@@ -2,8 +2,16 @@ name: 试一下action功能😄
 on:
     workflow_dispatch:
 jobs:
+    python:
+        runs-on: window-latest
+        steps:
+            - name: 可以运行python吗🤭
+              run: |
+                python script.py
     build:
         runs-on: ubuntu-latest
         steps:
             - name: 我想运行一个命令
-              run: ping localhost
+              run: |
+                ls
+                ping -c 4 www.google.com
