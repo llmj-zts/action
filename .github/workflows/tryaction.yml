@@ -5,6 +5,8 @@ jobs:
     python:
         runs-on: window-latest
         steps:
+            - name: python版本多少呢？
+              run: python --version
             - name: 可以运行python吗🤭
               run: |
                 python script.py
@@ -14,4 +16,4 @@ jobs:
             - name: 我想运行一个命令
               run: |
                 ls
-                ping -c 4 www.google.com
+                curl https://baidu.com
