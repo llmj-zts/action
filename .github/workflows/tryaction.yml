@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: 我想运行一个命令
-              run: ls
+              run: ping www.baidu.com
