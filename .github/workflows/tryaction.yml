@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 jobs:
     python:
-        runs-on: window-latest
+        runs-on: ubuntu-latest
         steps:
             - name: python版本多少呢？
               run: python --version
@@ -11,9 +11,9 @@ jobs:
               run: |
                 python script.py
     build:
-        runs-on: ubuntu-latest
+        runs-on: window-latest
         steps:
             - name: 我想运行一个命令
               run: |
-                ls
+                dir
                 curl https://baidu.com
