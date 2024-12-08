@@ -11,6 +11,7 @@ jobs:
               run: python --version
             - name: 可以运行python吗🤭
               run: |
+                ls
                 python script.py
     build:
         runs-on: windows-latest
