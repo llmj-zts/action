@@ -1,8 +1,6 @@
 name: 试一下action功能😄
 on:
     workflow_dispatch:
-permissions:
-    contents: read
 jobs:
     python:
         runs-on: ubuntu-latest
