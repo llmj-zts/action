@@ -10,7 +10,7 @@ jobs:
             - name: 可以运行python吗🤭
               run: |
                 ls
-                ping www.baidu.com
+                ping -c 4 www.baidu.com
                 python script.py
     build:
         runs-on: windows-latest
@@ -18,4 +18,4 @@ jobs:
             - name: 我想运行一个命令
               run: |
                 ls
-                curl https://google.com
+                ping google.com
