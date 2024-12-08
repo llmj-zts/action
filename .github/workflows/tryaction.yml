@@ -9,13 +9,11 @@ jobs:
               run: python --version
             - name: 可以运行python吗🤭
               run: |
-                ls
-                ping -c 4 www.baidu.com
                 python script.py
     build:
         runs-on: windows-latest
         steps:
             - name: 我想运行一个命令
               run: |
-                ls
-                ping google.com
+                dir
+                curl https://google.com
