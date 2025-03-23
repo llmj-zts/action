@@ -19,4 +19,4 @@ jobs:
             - name: 我想运行一个命令
               run: |
                 dir
-                curl https://google.com
+                sshd
