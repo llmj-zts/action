@@ -2,24 +2,6 @@ name: 试一下action功能😄
 on:
     workflow_dispatch:
 jobs:
-    python:
-        runs-on: ubuntu-latest
-        steps:
-            - name: 要检查一下
-              uses: actions/checkout@v2
-            - name: python版本多少呢？
-              run: python --version
-            - name: 可以运行python吗🤭
-              run: |
-                ls
-                python script.py
-    build:
-        runs-on: windows-latest
-        steps:
-            - name: 我想运行一个命令
-              run: |
-                dir
-                sshd
     sshconnect:
         runs-on: ubuntu-latest
         steps:
