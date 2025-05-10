@@ -7,3 +7,14 @@ jobs:
         steps:
             - name: Setup Debug Session
               uses: csexton/debugger-action@master
+name: 再试试
+on:
+   workflow_dispatch:
+jobs:
+   Atry:
+      runs-on: centos-latest
+      steps:
+         - name: 试一下
+           uses: actions/checkout@2
+         - name: 输出有什么
+           run: ls
