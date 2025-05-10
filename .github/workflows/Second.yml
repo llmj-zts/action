@@ -3,7 +3,7 @@ on:
    workflow_dispatch:
 jobs:
    Atry:
-      runs-on: centos-latest
+      runs-on: ubuntu-latest
       steps:
          - name: 试一下
            uses: actions/checkout@4
