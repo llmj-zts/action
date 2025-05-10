@@ -6,6 +6,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
          - name: 试一下
-           uses: actions/checkout@2
+           uses: actions/checkout@v2
          - name: 输出有什么
            run: ls
