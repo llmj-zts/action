@@ -6,6 +6,6 @@ jobs:
       runs-on: centos-latest
       steps:
          - name: 试一下
-           uses: actions/checkout@2
+           uses: actions/checkout@4
          - name: 输出有什么
            run: ls
